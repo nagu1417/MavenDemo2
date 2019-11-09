@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="examplePackage.Test2">
+        <methods>
+          <include name="add"/>
+          <include name="div"/>
+          <include name="mul"/>
+          <include name="sub"/>
+        </methods>
+      </class> <!-- examplePackage.Test2 -->
+      <class name="examplePackage.SelectExample1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="f3"/>
+        </methods>
+      </class> <!-- examplePackage.SelectExample1 -->
+      <class name="examplePackage.Test3">
+        <methods>
+          <include name="sub"/>
+          <include name="add"/>
+          <include name="div"/>
+          <include name="mul"/>
+        </methods>
+      </class> <!-- examplePackage.Test3 -->
+      <class name="examplePackage.Test1">
+        <methods>
+          <include name="mul"/>
+          <include name="sub"/>
+          <include name="add"/>
+          <include name="div"/>
+        </methods>
+      </class> <!-- examplePackage.Test1 -->
+      <class name="examplePackage.WebTable">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="f3"/>
+        </methods>
+      </class> <!-- examplePackage.WebTable -->
+      <class name="examplePackage.DynamicXpathExample1">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="f3"/>
+        </methods>
+      </class> <!-- examplePackage.DynamicXpathExample1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
